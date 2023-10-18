@@ -236,8 +236,6 @@ namespace OA.WebApiClient
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-
             }
             void RequestResponseHandler(RequestProfilerModel requestProfilerModel)
             {
